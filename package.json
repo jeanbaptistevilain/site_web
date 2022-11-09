@@ -1,11 +1,14 @@
 {
-  "name": " ",
+  "name": "",
   "version": "0.0.1",
   "description": "",
   "keywords": "",
   "license": "",
   "author": "",
-  "source": ["html/index.html", "html/404.html"],
+  "source": [
+    "html/index.html",
+    "html/404.html"
+  ],
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -13,6 +16,8 @@
   "devDependencies": {
     "@parcel/packager-raw-url": "^2.8.0",
     "@parcel/transformer-webmanifest": "^2.8.0",
-    "parcel": "^2.8.0"
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
   }
 }
